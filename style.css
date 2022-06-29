@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background: rgb(142,115,194);
+    background: linear-gradient(84deg, rgba(142,115,194,1) 0%, rgba(82,117,183,1) 99%);
+    color: white;
+    text-align: center;
+}
+
+.container{
+
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    min-height: 600px;
+    border: 3px solid linear-gradient(84deg, rgba(142,115,194,1) 0%, rgba(82,117,183,1) 99%)
+    margin-top: 20px;
+    /* display: flex;
+    flex-direction: row;
+    border: 3px solid;
+    /* border: 3px solid linear-gradient(84deg, rgba(142,115,194,1) 0%, rgba(82,117,183,1) 99%); */
+    /* min-height: 600px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center; */ *
+}
+
+.box{
+    width: 120px;
+    height: 200px;
+    background: #908fc9;
+    color: black;
+    font-size: 20px;
+    margin: 20px;
+    /* border-radius: 0px; */
+    flex-wrap: wrap;
+    font-family: poppins;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 15px;
+}
+
+h1 {
+    text-align: center;
+    font-size: 1.5em;
+    color: white;
+    text-transform: uppercase;
+}
+.h2 {
+    text-align: center;
+    
+}
+
+p {
+    text-align: center;
+    font-size: 15px;
+    color: black;
+    text-decoration: 2px underline #827eb9;
+    line-height: 95%;
+    margin-bottom: 30px;
+}
+
+p:nth-of-type(1) {
+    text-decoration: none;
+}
+a{
+    background: #fffd38;
+    padding: 10px;
+    width: 170px;
+    text-decoration: none;
+    border-radius: 5px;
+    color: black;
+
+}
+
+.box:first-of-type{
+    width: 200px;
+    height: 400px;
+    text-align: center;
+}
+.box:nth-of-type(2){
+    width: 200px;
+    height: 500px;
+    text-align: center;
+}
+.box:nth-of-type(3){
+    width: 200px;
+    height: 400px;
+    text-align: center;
+    background: linear-gradient(84deg, rgba(132,145,200,255) 0%, rgba(127,144,198,255) 99%)
+}
